@@ -59,7 +59,7 @@ if(!empty($_POST["submit_otp"])) {
 	
 	<img class="mb-4" src="http://www.thejusengg.ac.in/assets/images/thejus-logo.png" alt="" width="80"
 				height="80">
-			<h1 class="h3 mb-3 fw-normal">Please Verify</h1>
+			<h1 class="h3 mb-3 fw-normal">Verify</h1>
 	<?php
 		if(!empty($error_message)) {
 	?>
@@ -90,7 +90,7 @@ if(!empty($_POST["submit_otp"])) {
 			else {
 		?>
 		
-		<div class="tableheader">Enter Your Login Email</div>
+		<div class="tableheader">Enter your email</div>
 		<div class="tablerow"><input type="text" name="email" placeholder="Email" class="login-input" required></div>
 		<div class="tableheader"><input type="submit" name="submit_email" value="Submit" class="btnSubmit"></div>
 		<?php 

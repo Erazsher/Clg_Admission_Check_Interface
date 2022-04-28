@@ -128,7 +128,7 @@ input[type=submit]:hover {
     <br>
 
     <select id="type" name="type">
-      <option value="MGMT">MANAGEMET</option>
+      <option value="MGMT">MANAGEMENT</option>
       <option value="NRI">NRI</option>
     </select>
     <br>
